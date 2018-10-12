@@ -1,4 +1,4 @@
-# sed
+# sed  
 Q: 用sed插入行,行首有空格  
 A: `sed '3a \ 444'`  
 A: sed '3r '<(echo '444')  
